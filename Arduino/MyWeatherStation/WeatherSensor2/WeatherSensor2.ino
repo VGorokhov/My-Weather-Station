@@ -26,7 +26,7 @@
  * http://majordomo.smartliving.ru/forum/viewforum.php?f=20
  *
  * Исходный файл 
- * https://github.com/VGorokhov/MySensor2/tree/master/Arduino/MySensor/Hum_Temp_OLED
+ * https://github.com/VGorokhov/My-Weather-Station/blob/master/Arduino/MyWeatherStation/WeatherSensor2/WeatherSensor2.ino
  *  
  *  
  *
@@ -55,6 +55,9 @@ DATA pin is to be connected directly to one of Arduino ports.
 
 #define CHILD_ID_WIND 1
 
+#define SKETCH_NAME "Weather Sensors_2"
+#define SKETCH_VERSION "1.0"
+
 //DATA wire connected to arduino port 4
 LaCrosse_TX23 anemometer = LaCrosse_TX23(4);
 
@@ -69,10 +72,11 @@ void setup(){
 void presentation()
 {
     // Send the sketch version information to the gateway and Controller
-  sendSketchInfo("Wind Sensor", "1.0");
+  sendSketchInfo(SKETCH_NAME, SKETCH_VERSION);
 
   // Register all sensors to gw (they will be created as child devices)
   present(CHILD_ID_WIND, S_WIND);
+  
 }
 
 void loop()
