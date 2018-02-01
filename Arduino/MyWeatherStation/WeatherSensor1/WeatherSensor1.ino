@@ -35,7 +35,7 @@
  * http://majordomo.smartliving.ru/forum/viewforum.php?f=20
  *
  * Исходный файл 
- * https://github.com/VGorokhov/MySensor2/tree/master/Arduino/MySensor/Hum_Temp_OLED
+ * https://github.com/VGorokhov/My-Weather-Station/blob/master/Arduino/MyWeatherStation/WeatherSensor1/WeatherSensor1.ino
  *  
  *  
  */
