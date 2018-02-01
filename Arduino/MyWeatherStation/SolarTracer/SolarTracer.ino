@@ -12,7 +12,7 @@
    http://majordomo.smartliving.ru/forum/viewforum.php?f=20
 
    Исходный файл 
-   https://github.com/VGorokhov/MySensor2/tree/master/Arduino/MySensor/Bathroom
+   https://github.com/VGorokhov/My-Weather-Station/tree/master/Arduino/MyWeatherStation/SolarTracer
 
 */
 #include <Servo.h> // include Servo library 
