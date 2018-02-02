@@ -6,7 +6,7 @@
    Version 1.0 - VGorokhov
 
    Документация по прошивке
-   "Трекер солнечных батарей":
+   "Трекер солнечных батарей, погодной станции":
    
    
    http://majordomo.smartliving.ru/forum/viewforum.php?f=20

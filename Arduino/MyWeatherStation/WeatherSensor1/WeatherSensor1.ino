@@ -48,7 +48,7 @@
 
 //#define MY_RF24_PA_LEVEL RF24_PA_MAX //Options: RF24_PA_MIN, RF24_PA_LOW, RF24_PA_HIGH, RF24_PA_MAX
 
-#define MY_NODE_ID 7 //uncomment this line to assign a static ID
+#define MY_NODE_ID 11 //uncomment this line to assign a static ID
 
 #include <SPI.h>
 #include <math.h>

@@ -43,6 +43,8 @@ DATA pin is to be connected directly to one of Arduino ports.
 #define MY_RADIO_NRF24
 //#define MY_RADIO_RFM69
 
+#define MY_NODE_ID 12 //uncomment this line to assign a static ID
+
 #include <MySensors.h>
 #include <SPI.h>
 #include <Wire.h>    // Required for I2C communication
